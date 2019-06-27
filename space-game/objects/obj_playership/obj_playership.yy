@@ -53,6 +53,26 @@
             "enumb": 40,
             "eventtype": 5,
             "m_owner": "082cf2ab-8917-4988-805f-2cbadd39af93"
+        },
+        {
+            "id": "593c59b0-37fb-4175-9c5f-5daaad79d7f7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 6,
+            "m_owner": "082cf2ab-8917-4988-805f-2cbadd39af93"
+        },
+        {
+            "id": "47cd4018-7de3-42db-aeff-a72a7a251856",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "082cf2ab-8917-4988-805f-2cbadd39af93"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -69,9 +89,53 @@
     "physicsRestitution": 0.1,
     "physicsSensor": false,
     "physicsShape": 1,
-    "physicsShapePoints": null,
+    "physicsShapePoints": [
+        {
+            "id": "20ef746c-7015-4b36-9f7c-338fb67b66e1",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "330bac37-817d-4d26-a57d-a1fccd4710fd",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 32,
+            "y": 0
+        },
+        {
+            "id": "ca3fe1ae-8314-4e2a-83ec-da00a6be1a7d",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 32,
+            "y": 32
+        },
+        {
+            "id": "4c124918-126d-49eb-b0c1-abd78e5ba4b9",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 32
+        }
+    ],
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "2228b1f5-6087-4d95-a1fa-237bef483bb9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "120",
+            "varName": "playerHealth",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "dcbf497c-9657-43f0-b58e-a450dce8adb3",
     "visible": true
