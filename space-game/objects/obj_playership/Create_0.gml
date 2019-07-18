@@ -2,6 +2,7 @@
 // You can write your code in this editor
 flySpeed = 10;
 maxShots = 5;
+keyDown = 0;
 
 keyboard_set_map(ord("W"), vk_up);
 keyboard_set_map(ord("A"), vk_left);
