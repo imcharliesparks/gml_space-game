@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "72f6b33a-aaf8-4fed-90b8-133c8a94c038",
+            "Value": {
+                "id": "35a77a4b-bb90-4f77-99ed-2bf2fb3eca5d",
+                "resourcePath": "sounds\\snd_playerLazer\\snd_playerLazer.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "78fe029c-beda-4ea5-a029-717b30598bbe",
             "Value": {
                 "id": "05feb66f-7b58-4595-ba04-04ab7a600c3e",
